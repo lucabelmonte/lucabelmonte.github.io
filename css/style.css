@@ -1,0 +1,401 @@
+@import "reset.css";
+
+/* SHADOW */
+
+.shadow-inset {
+    box-shadow: inset 0px -20px 95px rgba(0, 0, 0, .2);
+}
+
+.shadow-outset {
+    box-shadow: 0 20px 95px rgba(0, 0, 0, .2);
+}
+
+.clear-left {
+    clear: left;
+    display: block;
+}
+
+.clear-right {
+    clear: right;
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/* NAVIGATION BAR */
+
+#nav {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    z-index: 100;
+    transition: all .4s ease-in-out;
+}
+
+#nav>.row {
+    height: 100%;
+    width: 1100px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#nav>.row>div {
+    height: 100%;
+    float: left;
+}
+
+#nav>.row>.name img {
+    width: 32px;
+}
+
+#nav>.row>.name h1 {
+    font-size: 12pt;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#nav>.row>.list {
+    float: right;
+}
+
+#nav>.row>.list li {
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    font-size: 11pt;
+}
+
+#nav>.row>.list li a:visited, #nav>.row>.list li a:link {
+    color: #555;
+}
+
+.header-animation {
+    /* TO DO */
+    height: 60px !important;
+    line-height: 60px !important;
+    background: #fff;
+    box-shadow: 0 40px 95px rgba(0, 0, 0, .2);
+}
+
+
+/* MAIN FRAME */
+
+#main-frame {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bg3.png");
+    background-attachment: fixed;
+}
+
+#main-frame h1 {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    top: calc(50% - 50px);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    font-size: 20pt;
+    letter-spacing: 10px;
+}
+
+
+/* CONTENT */
+
+.cont-article {
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+}
+
+#content>div {
+    padding: 60px 0 80px 0;
+}
+
+.article {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+
+.article h1,
+.article h2,
+.article h3 {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.article h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+    font-size: 20pt;
+}
+
+.article h2 {
+    text-align: center;
+    color: #777;
+    margin-bottom: 35px;
+    font-size: 15pt;
+}
+
+.article p {
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    color: #666;
+    line-height: 20pt;
+    margin-bottom: 23px;
+}
+
+.article ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #666;
+}
+
+.article li {
+    line-height: 20pt;
+}
+
+.article br {
+    line-height: 30pt;
+}
+
+.article img {
+    width: 40%;
+}
+
+
+/* LIST ARTICLE */
+
+.article-main-list {
+    width: 1100px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.article-main-list h1 {
+    font-size: 17pt;
+    text-align: center;
+}
+
+.article-main-list hr {
+    margin: 20px auto 20px auto;
+    color: #333;
+    width: 300px;
+}
+
+.article-main-list h1,
+.article-main-list h2,
+.article-main-list h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+.article-section {
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 0 40px 95px rgba(0, 0, 0, .2);
+    vertical-align: bottom;
+}
+
+.article-section img {
+    width: 300px;
+    height: 300px;
+}
+
+.article-section h1 {
+    font-size: 14pt;
+    letter-spacing: 1px;
+    background: #fff;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 13px 16px 95px 8px rgba(0, 0, 0, .2);
+}
+
+.article-main-list-conteiner {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* DIVISIONE */
+
+.one-collum {
+    width: 50%;
+    padding: 20px 0 10px 40px;
+}
+
+.two-collum {
+    width: 80%;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.dark-inset * {
+    color: #ddd !important;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.dark-inset h3 {
+    font-size: 12pt;
+}
+
+
+/* BACGROUNDS */
+
+.bg-1 {
+    background-image: url("../img/bg3.png");
+    background-attachment: fixed;
+}
+
+.bg-2 {
+    background-image: url("../img/pink%20dust.png");
+    background-attachment: fixed;
+}
+
+.bg-dark-1 {
+    background-image: url("../img/use_your_illusion.png");
+    background-attachment: fixed;
+}
+
+
+/* FOOTER */
+
+#footer {
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    color: #333;
+}
+
+#footer hr {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#footer h4,
+#footer h3 {
+    text-align: center;
+}
+
+#footer h3 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    font-size: 12pt;
+}
+
+#footer h4 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    font-size: 10pt;
+}
+
+
+/* ANIMATION */
+
+.logo-imphub {
+    padding-left: 20px;
+    width: 150px !important;
+}
+
+.color-change {
+    animation: rainbow-in 10s ease-in-out infinite;
+}
+
+@keyframes rainbow-in {
+    0% {
+        color: #F44336
+    }
+    50% {
+        color: #2196F3
+    }
+    100% {
+        color: #F44336
+    }
+}
+
+
+/***************************************\
+/b/ 
+\***************************************/
+
+.shadow-box {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#frame-article {
+    width: 100%;
+    height: 400px;
+}
+
+.section {
+    padding: 20px;
+    background: #fff;
+    width: 1100px;
+    margin: -200px auto 200px auto;
+}
+
+.section p img {
+    padding: 20px 20px 20px 20px;
+}
+
+.section h1,
+.section h2,
+.section h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.section h3 {
+    padding: 10px 0 20px 0;
+    color: #666;
+    font-size: 12pt;
+}
+
+.section h1 {
+    font-size: 30pt;
+    line-height: 35pt;
+    color: #333;
+}
+
+.section h2 {
+    padding: 10px 0 10px 0;
+}
+
+.section p {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    color: #666;
+    line-height: 20pt;
+    margin-bottom: 23px;
+}
+
+.section ul {
+    list-style-type: circle;
+    padding-left: 50px;
+    color: #666;
+}
+
+.section li {
+    font-family: 'Roboto', sans-serif;
+    line-height: 20pt;
+}
