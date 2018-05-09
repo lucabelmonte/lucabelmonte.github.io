@@ -110,7 +110,7 @@
 }
 
 
-/* CONTENT */
+/* CONTENT <span style="color: #3498db">#</span><span style="color: #e67e22">via</span></span><span style="color: #e74c3c">cassoli</span><span style="color: #e67e22">uno</span>*/
 
 .cont-article {
     width: 100%;
@@ -118,6 +118,10 @@
 
 #content {
     width: 100%;
+}
+
+a {
+    color: #3498db;
 }
 
 #content>div {
